@@ -7,7 +7,7 @@
 //
 
 import SwiftUI
-import ModalView
+import SwiftUIModalView
 
 struct ContentView: View {
     

@@ -9,7 +9,7 @@ Add a dependency using Swift Package Manager to your project: [https://github.co
 #### Step 2
 Import the dependency
 ```swift
-import ModalView
+import SwiftUIModalView
 ```
 ### Step 3
 Use `ModalNavigationView` and `ModalNavigationLink` the same way you would use `NavigationView` and `NavigationLink`:

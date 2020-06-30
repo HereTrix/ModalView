@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SwiftUIModalView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Simple modal navigation for swiftUI"
 
   s.description  = "Modal navigation for swiftUI. For usage details visit source page."
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
-  s.source       = { :git => "https://github.com/HereTrix/ModalView.git", :tag => 'v0.0.1'}
+  s.source       = { :git => "https://github.com/HereTrix/ModalView.git", :tag => 'v0.0.2'}
 
-  s.source_files  = "Classes", "Sources/ModalView/*.{swift}"
+  s.source_files  = "Classes", "Sources/SwiftUIModalView/*.{swift}"
 end

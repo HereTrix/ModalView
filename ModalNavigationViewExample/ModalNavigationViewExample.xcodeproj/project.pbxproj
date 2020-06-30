@@ -12,7 +12,7 @@
 		68CCB34224A61B24006E8CBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CCB34124A61B24006E8CBC /* ContentView.swift */; };
 		68CCB34424A61B29006E8CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CCB34324A61B29006E8CBC /* Assets.xcassets */; };
 		68CCB34A24A61B29006E8CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CCB34824A61B29006E8CBC /* LaunchScreen.storyboard */; };
-		68CCB35B24A635C4006E8CBC /* ModalView in Frameworks */ = {isa = PBXBuildFile; productRef = 68CCB35A24A635C4006E8CBC /* ModalView */; };
+		68CCB35F24AB6A52006E8CBC /* SwiftUIModalView in Frameworks */ = {isa = PBXBuildFile; productRef = 68CCB35E24AB6A52006E8CBC /* SwiftUIModalView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68CCB35B24A635C4006E8CBC /* ModalView in Frameworks */,
+				68CCB35F24AB6A52006E8CBC /* SwiftUIModalView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +93,7 @@
 			);
 			name = ModalNavigationViewExample;
 			packageProductDependencies = (
-				68CCB35A24A635C4006E8CBC /* ModalView */,
+				68CCB35E24AB6A52006E8CBC /* SwiftUIModalView */,
 			);
 			productName = ModalNavigationViewExample;
 			productReference = 68CCB33A24A61B24006E8CBC /* ModalNavigationViewExample.app */;
@@ -347,9 +347,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		68CCB35A24A635C4006E8CBC /* ModalView */ = {
+		68CCB35E24AB6A52006E8CBC /* SwiftUIModalView */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = ModalView;
+			productName = SwiftUIModalView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
